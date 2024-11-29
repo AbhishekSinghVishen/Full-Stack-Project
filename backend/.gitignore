@@ -1,0 +1,55 @@
+# Node.js / React (Frontend)
+node_modules/
+build/
+dist/
+.env
+npm-debug.log
+yarn-error.log
+/.vscode/
+*.tsbuildinfo
+*.log
+
+# Python / Django (Backend)
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+.env
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+instance/
+*.db
+*.bak
+
+# Django media and static files
+/static/
+/media/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.idea/
+
+# Coverage and test results
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.sqlite
+*.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
